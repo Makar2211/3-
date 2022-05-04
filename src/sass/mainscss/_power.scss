@@ -13,9 +13,9 @@
         text-align: center;
     }
     &__icons{
-        width: 940px;
-        display:flex;
+        display: flex;
         justify-content: space-between;
+        
         img {
             display: block;
             margin: 0 auto;
@@ -29,9 +29,6 @@
             color: #0d0d0d;
             font-size: 18px;
             font-weight: 900;
-            font-style: normal;
-            letter-spacing: normal;
-            line-height: normal;
             text-align: center;
          }
          

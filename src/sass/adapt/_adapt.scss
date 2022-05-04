@@ -1,0 +1,242 @@
+@media screen and (max-width: 768px){
+    .consultation{
+        .power__text{
+            font-size: 24px;
+        }
+        &__desc{
+            font-size: 20px;
+        }
+    }
+    .promo{
+        
+        .promo__wrapper{
+            .promo__header{
+                font-size: 30px;
+                line-height: 30px;
+            }
+            .button{
+                &_main{
+                    width: 250px;
+                    height: 45px;
+                    background-color: #c70101;
+                    font-size: 14px;
+                }
+            }
+            .promo__subheader{
+                font-size: 19px;
+                line-height: 15px;
+            }
+            .promo__icon{
+                font-size: 11px;
+            }
+            .promo__link{
+                margin-top: 12px;
+                color: #ffffff;
+                font-size: 14px;
+            }
+        }
+        .header{
+            &__logo{
+                img{
+                    max-width: 75%; 
+                }
+                
+            }
+            &__official{
+                font-size: 10px;
+              
+                margin-right: 30px;
+                
+                span{
+                    font-size: 14px;
+                    
+                }
+            }
+            &__contacts{
+                a{
+                    font-size: 14px;
+                    
+                }
+                button{
+                    width: 124px;
+                    font-size: 9px;
+                    height: 26px;
+
+                }
+            }
+        }
+    }
+    .power{
+        min-height:880px;
+        &__text{
+            font-size: 22px;
+        }
+        &__icons{
+                margin-top: 15px;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                width: 50%;
+            .power__icon{
+                margin: 0 auto;
+                .power__test{
+                    margin-top:175px;
+                }
+                .power__test1{
+                    margin-top: 320px;
+                }
+                
+                img{
+                    width: 30%;
+                }
+                h3{
+                    margin-top: 33px;
+                    margin-bottom: 22px;
+                    color: #0d0d0d;
+                    font-size: 13px;
+                    font-weight: 900;
+                    text-align: center;
+                }
+                font-size: 11px;
+                
+                
+            }
+        }
+    }
+
+
+        
+@media screen and (max-width: 575px){
+    .promo{
+        .promo__wrapper{
+            .promo__header{
+                font-size: 25px;
+                line-height: 25px;
+            }
+            .button{
+                &_main{
+                    width: 220px;
+                    height: 40px;
+                    background-color: #c70101;
+                    font-size: 12px;
+                }
+            }
+            .promo__subheader{
+                font-size: 16px;
+                line-height: 10px;
+            }
+            .promo__icon{
+                font-size: 11px;
+                img{
+                    width: 30%;
+                }
+            }
+            .promo__link{
+                margin-top: 10px;
+                color: #ffffff;
+                font-size: 13px;
+            }
+        }
+        .header{
+            &__logo{
+                img{
+                    max-width: 75%; 
+                }
+                
+            }
+            &__official{
+                font-size: 0px;
+               
+                
+                span{
+                    font-size: 0px;
+                   
+                }
+            }
+            &__contacts{
+                a{
+                    font-size: 14px;
+                    
+                }
+                button{
+                    width: 124px;
+                    font-size: 9px;
+                    height: 26px;
+
+                }
+            }
+        }
+    }
+    .consultation{
+        .power__text{
+            font-size: 22px;
+        }
+        &__desc{
+            font-size: 17px;
+        }
+    }
+}
+}
+@media screen and (max-width: 480px){
+    .consultation{
+        .power__text{
+            font-size: 22px;
+        }
+        &__desc{
+            font-size: 17px;
+        }
+    .promo{
+        .promo__wrapper{
+            .promo__header{
+                font-size: 23px;
+                line-height: 25px;
+            }
+            .promo__icons{
+                width: 275px;
+                width: 80%;
+            }
+            .button{
+                &_main{
+                    width: 220px;
+                    height: 40px;
+                    background-color: #c70101;
+                    font-size: 12px;
+                }
+            }
+            .promo__subheader{
+                font-size: 13px;
+                line-height: 10px;
+            }
+            .promo__icon{
+                display: block;
+                margin-right: 10px;
+                
+                font-size: 11px;
+                img{
+                    width: 30%;
+                }
+            }
+            
+            .promo__link{
+                margin-top: 10px;
+                color: #ffffff;
+                font-size: 13px;
+            }
+        }
+    }
+    .power{
+        min-height:750px;
+        &__text{
+            font-size: 22px;
+        }
+        &__icons{
+                margin-top: 15px;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                width: 80%;
+        }
+    
+    }
+    }
+}
