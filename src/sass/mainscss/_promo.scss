@@ -1,5 +1,6 @@
 .promo{
     min-height: 650px;
+    max-height: 650px;
     padding: 21px 0  93px 0;
     background: url(../../img/bg1.jpg) center (center/cover) no-repeat;
     &__wrapper{
@@ -43,6 +44,7 @@
     }
     &__link{
         margin-top: 18px;
+        margin-bottom: 92px;
         color: #ffffff;
         font-size: 16px;
         font-weight: 500;
