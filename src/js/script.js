@@ -182,7 +182,7 @@ $(document).ready(function(){
         }
       });
 
-      $('a[href*="#"]').on('click', function() {
+      $('a[href=#up]').on('click', function() {
         $('html, body').animate({
           scrollTop: $($.attr(this, 'href')).offset().top
         }, 400);
